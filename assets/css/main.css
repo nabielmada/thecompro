@@ -1,0 +1,173 @@
+/* 
+    Created: Nabiel Mada
+    Purpose: For Test Code Interview (Unictive)
+    Year: 2023
+*/
+
+/* CDN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+/* Global Settings */
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Text Styles */
+.text-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-subtitle{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.text-desc{
+    font-size: 16px;
+    color: #516371;
+    line-height: 28px;
+}
+
+.text-subtitle-light, .text-desc-light{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #A7ABB6;
+}
+
+.text-testimoni{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 48px;
+    padding: 0% 10%;
+}
+
+/* Color Styles */
+.color-light{
+    color: #A7ABB6;
+}
+
+.color-primary{
+    color: #0041E8;
+}
+
+/* Background Color */
+.bg-purple{
+    background-color: #0041E8 !important;
+}
+
+/* Button Styles */
+.btn-primary{
+    background-color: #0041E8 !important;
+}
+
+/* Custom */
+#intro{
+    margin: 60px 0px;
+}
+
+#intro{
+    background-image: url("../img/wallpaper/bg-border.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 180%;
+}
+
+#testimoni{
+    background-image: url("../img/partial/quote.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+a{
+    color: #A7ABB6 !important;
+}
+
+a:hover{
+    color: #0041E8 !important;
+}
+
+mark {
+    display: inline-block !important;
+    line-height: 0em !important;
+    padding-top: 0em !important;
+    padding-bottom: 0.5em !important;
+    background-color: #c2f8d6 !important;
+}
+
+.space{
+    margin: 150px 0px;
+}
+
+.bg-project{
+    filter: brightness(60%);
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #intro{
+        margin: 40px 0px;
+    }
+    .space{
+        margin: 80px 0px;
+    }
+    .container{
+        padding: 0% 5% !important;
+    }
+
+    /* Images */
+    #img-weekly-report{
+        display: none;
+    }
+    #img-client-trusted{
+        display: none;
+    }
+    #img-timeline{
+        margin-bottom: 30px;
+    }
+    #img-whoweare{
+        margin-bottom: 30px;
+    }
+
+    /* Button Styles */
+    #btn-registrasi{
+        margin-top: 13%;
+        width: 100% !important;
+    }
+
+    .btn-trusted-partner{
+        margin-top: 6%;
+    }
+
+    /* Text Styles */
+    .text-testimoni{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 48px;
+        padding: 0% 0%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
